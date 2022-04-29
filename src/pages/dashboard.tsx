@@ -15,7 +15,7 @@ const options: ApexOptions = {
       show: false,
     },
     zoom: {
-      enabled:false,
+      enabled: false,
     },
     foreColor: theme.colors.gray[500],
   },
@@ -55,7 +55,7 @@ const options: ApexOptions = {
       opacityTo: 0.3,
     },
   }
-} ;
+};
 
 const series = [
   { name: 'series1', data: [1, 20, 399, 23, 87, 986, 148] }
@@ -72,7 +72,7 @@ export default function Dashboard() {
 
         <SimpleGrid flex='1' gap='4' minChildWidth='320px' alignItems='flex-start'>
           <Box
-            p='8'
+            p={['6', '8']}
             bg='gray.800'
             borderRadius={8}
             pb='4'
@@ -82,7 +82,7 @@ export default function Dashboard() {
           </Box>
 
           <Box
-            p='8'
+            p={['6', '8']}
             bg='gray.800'
             borderRadius={8}
             pb='4'
